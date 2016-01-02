@@ -32,14 +32,13 @@ public class Oscillator
         Frequency = frequency;
     }
 
-    private void Update()
+    public void Update(float delta)
     {
-        time += Time.deltaTime;
+        time += delta;
     }
 
     public float GetValue()
     {
-        Update();
         return (Mathf.Cos(time*Frequency*Mathf.PI*2) + 1f)/2f;
     }
 
