@@ -1,6 +1,16 @@
 ﻿/*
- * Terah
- * https://github.com/Terah-
+ *  Terah
+ *  https://github.com/Terah-
+ *
+ *  Oscillator :
+ *  Returns an oscillating value
+ *
+ *  Params :
+ *  Frequency - controls the frequency of the oscillation (default 1)
+ *
+ *  Use GetValue() to get a value bewteen 0 and 1
+ *  Use GetValue(min, max) to get a value between min and max
+ *
  */
 
 using UnityEngine;
